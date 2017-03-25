@@ -1,2 +1,9 @@
 language: node_js
 node_js: node
+deploy:
+  provider: heroku
+  api_key:
+    secure: jrs7I4UNFV1Tz7bsdgUOzCJF4REtQ4t215+BuFQU9JBMN1zHd9pqTKUWh92XNAbPg11t+iLjObRBIMJ6905jtP8bG894r/EUkqamBjFbF+Bm5x6latCf+1wbilldplOwFIUD4B7zzM31tYsSpMpHiqGrY2UUQRrEL/pYtMwy+MOP+d4S0N5EjGP2TFIQDs46GE+r5I8ci+AGOa+pLzLCtVbydHGRNUw5XicUMKuKOwRO4pd2N53bY3w12DjM+FmWW3aqwROt/e283UnD2rRCmmVn52ZYJ2sTqpDMIdiz7tIQoxviUJkmNo5YceOTcyujbcP2NOOv9ofVrDFWDiX+9dMCRlGIee2QckJNjP1+swDFx8XnRoeId3Zp7RaPKCQn4kG5gWXx8hT6CrlRMQi97UgPd1G07SEDbJa4esaJ/D1Lv62VOdOI+IWpcacB7N1BS1q4GXDPGV6PcrwbnpHkYFzmne8tQ1KQzjpo095T8/i6exeHASbjwzVkyULfphWSH++G2yHfaB45Aj7luKl/feAMFL3Gn8x+FlwM5wiwu+G5+pwMVd8TNosGs/XG15nZN3XLQhJgv5N+2z+9TDdFwSSmiSChykFxBRt6oV828bx2gZpqLNF6mzLQUc5y3Jk00PBY/LxHrkY5xlHgH3E4w1MOU2pxdOIFr3SmH38Hc50=
+    app: still-everglades-74729
+  on:
+    repo: andreasadinata/node-shopping-list-integration-tests
